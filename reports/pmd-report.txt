@@ -1,0 +1,16 @@
+src/main/java/core/Jenkins05/MainPage.java:1:	Package name contains upper case characters
+src/main/java/core/Jenkins05/MainPage.java:10:	Parameter 'args' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:10:	publicMethodCommentRequirement Required
+src/main/java/core/Jenkins05/MainPage.java:11:	System.out.println is used
+src/main/java/core/Jenkins05/MainPage.java:14:	Parameter 'first' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:14:	Parameter 'second' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:14:	publicMethodCommentRequirement Required
+src/main/java/core/Jenkins05/MainPage.java:18:	Parameter 'first' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:18:	Parameter 'second' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:18:	publicMethodCommentRequirement Required
+src/main/java/core/Jenkins05/MainPage.java:25:	Parameter 'first' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:25:	Parameter 'second' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:25:	publicMethodCommentRequirement Required
+src/main/java/core/Jenkins05/MainPage.java:29:	Parameter 'first' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:29:	Parameter 'second' is not assigned and could be declared final
+src/main/java/core/Jenkins05/MainPage.java:29:	publicMethodCommentRequirement Required
