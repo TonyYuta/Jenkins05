@@ -23,6 +23,10 @@ import java.math.BigInteger;
  *
  */
 public class PMD {
+	
+	public PMD() {
+		
+	}
 
 	// Useless parentheses
 			void bar() {
@@ -34,8 +38,10 @@ public class PMD {
 			}
 		
 		
-		// BigIntegerInstantiation
-		public void BigInteger() {
+		/**
+		 * BigInteger analysis
+		 */
+		public void bigInteger() {
 			BigInteger bi1 = new BigInteger("1"); 	// reference BigInteger.ONE
 													// instead
 			BigInteger bi2 = new BigInteger("0"); 	// reference BigInteger.ZERO
