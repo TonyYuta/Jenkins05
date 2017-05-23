@@ -25,11 +25,10 @@ import java.math.BigInteger;
 public class Findbugs {
 
 // FinalParametersCheck
-	@SuppressWarnings("null")
-	public static boolean A(String name) {
-		boolean n;
-		n = true;
-		return n;
+//	@SuppressWarnings("null")
+	public static boolean aabbCcDdee(String name) {
+		boolean nBoolean = true;
+		return nBoolean;
 		}
 	/*
 	public void findBugs02() {
@@ -55,7 +54,7 @@ public class Findbugs {
 	}
 	
 	// BigIntegerInstantiation
-	public void BigInteger() {
+	public void bigInteger() {
 	//	BigInteger bi1 = new BigInteger("1"); 	// reference BigInteger.ONE
 	//											// instead
 	//	BigInteger bi2 = new BigInteger("0"); 	// reference BigInteger.ZERO
@@ -73,7 +72,7 @@ public class Findbugs {
 		public void foo() {
 			for (int i = 0; i < 10; i++) { // only references 'i'
 				for (int k = 0; k < 20; i++) { // references both 'i' and 'k'
-					System.out.println("Hello");
+	//				System.out.println("Hello");
 				}
 			}
 		}
